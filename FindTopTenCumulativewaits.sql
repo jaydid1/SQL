@@ -1,4 +1,4 @@
--- Finding the top ten cumulative wait events
+-- Finding the top ten cumulative wait events.
 
 SELECT TOP 10
 	wait_type ,
