@@ -1,5 +1,3 @@
--- passesfile_id_
-
 DECLARE @CounterPrefix NVARCHAR(30)
 SET @CounterPrefix = CASE WHEN @@SERVICENAME = 'MSSQLSERVER'
 THEN 'SQLServer:'
